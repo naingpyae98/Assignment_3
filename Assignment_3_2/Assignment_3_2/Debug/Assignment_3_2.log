@@ -1,0 +1,5 @@
+﻿  Assignment_3_2.cpp
+c:\users\pyae naing\documents\visual studio 2015\projects\assignment_3_2\assignment_3_2\assignment_3_2.cpp(20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\pyae naing\documents\visual studio 2015\projects\assignment_3_2\assignment_3_2\assignment_3_2.cpp(21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Assignment_3_2.vcxproj -> C:\Users\Pyae Naing\Documents\Visual Studio 2015\Projects\Assignment_3_2\Debug\Assignment_3_2.exe
+  Assignment_3_2.vcxproj -> C:\Users\Pyae Naing\Documents\Visual Studio 2015\Projects\Assignment_3_2\Debug\Assignment_3_2.pdb (Full PDB)
