@@ -13,8 +13,8 @@ int main()
 	string month, year;
 	double  state_Tax_Percent, county_Tax_Percent; // The tax %
 	double state_Tax, county_Tax, total_Tax; // Amount of money collected from tax
-	state_Tax_Percent = .04; // 4%
-	county_Tax_Percent = .02; // 2%
+	state_Tax_Percent = .04; // 4% tax
+	county_Tax_Percent = .02; // 2% tax
 	cout << "Please Enter the Month: ";
 	cin >> month;
 	cout << "Please Enter the Year: ";
@@ -22,8 +22,8 @@ int main()
 	cout << "Please Enter the Total Amount of Money Collected: ";
 	cin >> total_Collected; // Amount of $ collected including tax
 	total_Sale = total_Collected / (1 + state_Tax_Percent + county_Tax_Percent); // amount of money collected without tax.
-	state_Tax = total_Sale * state_Tax_Percent;
-	county_Tax = total_Sale * county_Tax_Percent;
+	state_Tax = total_Sale * state_Tax_Percent; // amount of county tax collected
+	county_Tax = total_Sale * county_Tax_Percent; // amount of county tax collected
 	total_Tax = county_Tax + state_Tax;
 	cout << setprecision(2) << fixed; // set to 2 decimal since it is money.
 	cout << "Month: " + month + "\n" + "Year: " + year << endl;
